@@ -28,7 +28,7 @@
 
 	1. to see the running containers
 		$ docker ps 
-		$ docker ps ls
+		$ docker ps -ls # list alrunning or nonm running
 	2. to see the running images
 		$ docker images
 	3. to see all running and non-running containers
