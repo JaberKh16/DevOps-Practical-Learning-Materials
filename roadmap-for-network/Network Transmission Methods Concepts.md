@@ -84,10 +84,13 @@
 - Is the topmost layer of the OSI model and provides network services directly to end-user applications. 
 - It enables resource sharing, remote file access, and other network services. 
 - Common protocols operating at this layer includes:
-	- `HTTP (Hypertext Transfer Protocol)` for web browsing, 
+	- `HTTP/HTTPs (Hypertext Transfer Protocol)` for web browsing, 
 	- `FTP (File Transfer Protocol)` for file transfers, 
 	- `SMTP (Simple Mail Transfer Protocol)` for email transmission, 
 	- `DNS (Domain Name System)` for resolving domain names to IP addresses.
+	- `SSH(Secure Shell)`
+	- `OAuth(Open Authorization)` - passwordless authentication (Google, LinkedIn etc)
+	- `OIDC(Open ID Connect)`
 This layer serves as the interface between the network and the application software.
 
 
