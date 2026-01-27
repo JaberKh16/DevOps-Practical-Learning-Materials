@@ -39,3 +39,40 @@ When we enter a domain name in our browser, the computer needs to find the corre
 This all happens in just fractions of a second. Below we can see a simple example of the Domain Translation process. Suppose you want to visit the website at `www.example.com`. Without the Domain Name System (DNS), we would need to know and type the IP address, such as `93.184.216.34`, every time you want to access that site. With DNS in place, we can simply type `www.example.com` into our browser. Behind the scenes, DNS automatically finds and translates this domain name into the correct IP address for us, ensuring a seamless connection to the website. The diagram below illustrates the diagram of the `DNS Query Process`.
 
 ![DNS query process: Personal computer requests www.example.com'sl IP from Recursive DNS Server, which queries Root Server, then TLD Server, and finally Authoritative DNS, receiving IP 93.184.216.34.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/289/DNS/DNS_Query_Process-2.png)
+
+
+
+
+### DNS Resolution Flow:
+
+1. Recursive Resolver (Recursive DNS Server) → **Root DNS Server**
+    
+2. Root Server → Points to TLD Server
+    
+3. TLD Server → Points to Authoritative Server
+    
+4. Authoritative Server → Returns IP Address
+
+
+#### Questions
+
+1.  What type of domain is `.com` considered as? (Format: Three words, example: One-Two Three)
+	- Top-Level Domain
+2. In the domain `www.example.com`, what is `example` called?
+	- Second Level Domain
+3. What is checked first in the DNS resolution process when you enter a domain name 
+    into a browser? (Format: Two words)
+	- DNS Cache 
+ 4. What type of DNS server is typically provided by an Internet Service Provider?
+	- Recursive DNS Server
+5.  Which server directs the recursive DNS server to the appropriate TLD name server?
+
+7.  What numerical label uniquely identifies a device on a network?
+	- ip address
+8.  In the URL "accounts.google.com", what is `accounts` considered as?
+	- subdomain
+
+
+
+`***`  
+`&copy; 2025-2026 [Hack The BOX](https://academy.hackthebox.com/module/289/section/3241). All Rights Reserved.`
