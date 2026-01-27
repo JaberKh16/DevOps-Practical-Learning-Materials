@@ -13,12 +13,13 @@ DNS bridges the gap between these two, so we can just type `www.google.com` wi
 
 DNS is organized like a tree, starting from the root and branching out into different layers.
 
-|**Layer**|**Description**|
-|---|---|
-|`Root Servers`|The top of the DNS hierarchy.|
-|`Top-Level Domains (TLDs)`|Such as `.com`, `.org`, `.net`, or country codes like `.uk`, `.de`.|
-|`Second-Level Domains`|For example, `example` in `example.com`.|
-|`Subdomains or Hostname`|For instance, `www` in `www.example.com`, or `accounts` in `accounts.google.com`.|
+| **Layer**                          | **Description**                                                                   |
+| ---------------------------------- | --------------------------------------------------------------------------------- |
+| `DNS Recursive Servers(DNS Cache)` | First recursive server computer will look                                         |
+| `Root Servers`                     | The top of the DNS hierarchy.                                                     |
+| `Top-Level Domains (TLDs)`         | Such as `.com`, `.org`, `.net`, or country codes like `.uk`, `.de`.               |
+| `Second-Level Domains`             | For example, `example` in `example.com`.                                          |
+| `Subdomains or Hostname`           | For instance, `www` in `www.example.com`, or `accounts` in `accounts.google.com`. |
 
 ![URL breakdown: Scheme, Subdomains, 2nd-Level Domain, Top-Level Domain, Page name, Root.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/289/DNS/DNS-2.png)
 

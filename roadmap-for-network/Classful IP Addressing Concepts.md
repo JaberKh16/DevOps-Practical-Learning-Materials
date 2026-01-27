@@ -177,5 +177,3 @@ Host bits: 8
 ---
 
 If you want, I can make a **diagram showing Class A/B/C with network bits, host bits, broadcast, and usable IPs visually** — perfect for quick memory and exam revision.
-
-Do you want me to create that visual diagram?

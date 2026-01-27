@@ -24,6 +24,7 @@ Below is a **clear, structured guide to Subnetting**, including **concepts, form
 IPv4 = **32 bits** → divided into:
 
 ```
+XXXXXXXX. XXXXXXXX. XXXXXXXX. XXXXXXXX
 Network Portion | Host Portion
 ```
 
